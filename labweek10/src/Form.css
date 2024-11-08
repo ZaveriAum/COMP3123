@@ -1,0 +1,43 @@
+/* Form styling */
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form input,
+.form select {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
